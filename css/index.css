@@ -71,6 +71,9 @@ p {
     margin: 0 auto;
 }
 
+
+/* HEADER STYLES */
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -85,6 +88,8 @@ nav a{
     transition: 0.25s;
 }
 
+/* NAV ANIMATION */
+
 nav a:hover{
     color: grey;
     transform: scale(1.2);
@@ -98,6 +103,8 @@ nav a:hover{
 .jumbo{
     padding: 1rem 0 1rem 0; 
 }
+
+/* CONTENT STYLES */
 
 .top-content {
     display: flex;
@@ -122,6 +129,8 @@ nav a:hover{
     padding: 0 2%;
     margin-bottom: 0;
 }
+
+/* BOX STYLES */
 
 .middle-content .boxes {
     display: flex;
@@ -193,6 +202,8 @@ nav a:hover{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* FOOTER STYLES */
 
 footer {
     width: 100%;
