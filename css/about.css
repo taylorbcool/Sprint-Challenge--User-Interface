@@ -97,7 +97,7 @@ nav a:hover{
 }
 
 .jumbo{
-    padding: 1rem 0 1rem 0; 
+    padding: 1rem 0 0.5rem 0; 
 }
 
 .top-content {
@@ -108,10 +108,10 @@ nav a:hover{
     /* border-bottom: 1px dashed black; */
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.text-container {
+    width: 100%;
+    padding: 0 1.5% 0 1.5%;
+    /* padding-bottom: 20px; */
 }
 
 .middle-content {
