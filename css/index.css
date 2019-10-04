@@ -82,6 +82,12 @@ nav a{
     text-decoration: none;
     color: black;
     font-size: 12px;
+    transition: 0.25s;
+}
+
+nav a:hover{
+    color: grey;
+    transform: scale(1.1);
 }
 
 .jumbo{
@@ -200,4 +206,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover{
+    color: white;
+    transform: scale(1.0);
 }
