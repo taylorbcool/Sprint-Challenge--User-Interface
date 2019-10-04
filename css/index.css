@@ -88,9 +88,7 @@ nav a{
     transition: 0.25s;
 }
 
-/* NAV ANIMATION */
-
-nav a:hover{
+nav a:hover{ /* NAV ANIMATION */
     color: grey;
     transform: scale(1.2);
 }
@@ -141,7 +139,8 @@ nav a:hover{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /* background: black; */
+    /* background: black;
+    boxes now have individual background-color */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -224,7 +223,7 @@ footer nav a {
     text-decoration: none;
 }
 
-footer nav a:hover{
+footer nav a:hover{ /* this cancels out the animation on footer nav */
     color: white;
     transform: scale(1.0);
 }

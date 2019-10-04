@@ -93,9 +93,7 @@ nav a{
     transition: 0.25s;
 }
 
-/* NAV ANIMATION */
-
-nav a:hover{
+nav a:hover{ /* NAV ANIMATION */
     color: grey;
     transform: scale(1.2);
 }
@@ -156,9 +154,7 @@ nav a:hover{
     transition: .25s;
 }
 
-/* BUTTON ANIMATION */
-
-.button:hover{
+.button:hover{ /* BUTTONS ANIMATION */
     color: white;
     background-color: black;
 }
@@ -198,7 +194,7 @@ footer nav a {
     text-decoration: none;
 }
 
-footer nav a:hover{
+footer nav a:hover{ /* this cancels out the animation for footer nav */
     color: white;
     transform: scale(1.0);
 }
