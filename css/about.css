@@ -66,11 +66,16 @@ p {
     line-height: 1.4;
 }
 
+hr{
+    border-top: 1px dashed black;
+    width: 100%;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
 
 /* HEADER STYLES */
 
@@ -99,93 +104,59 @@ nav a:hover{ /* NAV ANIMATION */
 }
 
 .jumbo{
-    padding: 1rem 0 1rem 0; 
+    padding: 1rem 0 0.5rem 0; 
 }
 
 /* CONTENT STYLES */
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.text-container {
+    width: 100%;
+    padding: 0 1.5% 0 1.5%;
+    /* padding-bottom: 20px; */
 }
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+    padding: 1rem;
 }
 
 /* BOX STYLES */
 
-.middle-content .boxes {
+.boxes{
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    width: 800px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    /* background: black;
-    boxes now have individual background-color */
-    margin: 20px 2.5%;
+.box{
+    width: 48.5%;
+}
+
+.box h2{
+    margin-top: 0.5rem;
+}
+
+.box p{
+    margin-bottom: 0.5rem;
+}
+
+/* BUTTONS STYLES */
+
+.button{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 14px;
+    transition: .25s;
+}
+
+.button:hover{ /* BUTTONS ANIMATION */
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box1{
-    background-color: teal;
-}
-
-.box2{
-    background-color: gold;
-}
-
-.box3{
-    background-color: cadetblue;
-}
-
-.box4{
-    background-color: coral;
-}
-
-.box5{
-    background-color: crimson;
-}
-
-.box6{
-    background-color: forestgreen;
-}
-
-.box7{
-    background-color: darkorchid;
-}
-
-.box8{
-    background-color: hotpink;
-}
-
-.box9{
-    background-color: indigo;
-}
-
-.box10{
-    background-color: dodgerblue;
+    background-color: black;
 }
 
 .bottom-content {
@@ -223,7 +194,7 @@ footer nav a {
     text-decoration: none;
 }
 
-footer nav a:hover{ /* this cancels out the animation on footer nav */
+footer nav a:hover{ /* this cancels out the animation for footer nav */
     color: white;
     transform: scale(1.0);
 }
